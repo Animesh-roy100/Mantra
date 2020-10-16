@@ -1,0 +1,345 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Centuary Gothic;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.master{
+	width: 100%;
+	height: 100vh;
+	background-image: url("../img/banner.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+.master .navigation{
+	max-width: 1200px;
+	position: relative;
+	margin: 0 auto;
+	padding: 5px 20px;
+}
+
+.navigation ul{
+	padding: 2%;
+	margin-top: 20px;
+}
+
+.navigation ul li{
+	float: left;
+	list-style: none;
+	padding: 40px 30px;
+	font-size: 14px;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.navigation .orange{
+	background-color: #ff6818;
+	border-radius: 5px;
+	padding: 5px 20px;
+	margin-top: 33px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+.navigation ul li a:hover{
+	background-color: #ff6818;
+	border-radius: 5px;
+	padding: 5px 20px;
+	margin-top: 33px;
+	border: 1px solid transparent;
+	transition: 0.3s ease;
+}
+
+.icon{
+	float: right;
+	/*display: none;*/
+	margin: 14px 20px 0px 0px;
+	background-color: transparent;
+	border: none;
+}
+
+.fa{
+	font-size: 30px;
+	color: #000;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.banner{
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 20%;
+}
+
+.banner h1{
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+
+.banner .gray{
+	color: rgb(175,170,170);
+}
+
+
+
+/*one section*/
+
+.full-width{
+	width: 100%;
+	background-color: rgb(238,238,238);
+	padding: 80px 0;
+	text-align: center;
+}
+
+.one-section{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.one-section h1{
+	font-size: 2.8rem;
+	font-weight: 900;
+	margin: 0;
+	color: rgb(49,47,47);
+}
+
+.one-section h4{
+	color: rgb(122,118,118);
+	font-weight: 100;
+	margin: 0;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}
+
+.one-section p{
+	color: gray;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 3% 10%;
+	font-weight: 100;
+}
+
+.one-section .dark{
+	color: rgb(71,69,69);
+}
+
+.btn{
+	width: 200px;
+	height: 65px;
+	font-family: 'Noto Sans JP', sans-serif;
+	background-color: #ff6816;
+	border: none;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	color: rgb(37,37,37);
+}
+
+/* Four Section */
+
+.four-section{
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 80px 0px; 
+}
+
+.four-section h1{
+	font-size: 2rem;
+	font-weight: 900;
+	margin: 0;
+	color: rgb(49,47,47);
+}
+
+.four-section h4{
+	color: rgb(122,118,118);
+	font-weight: 100;
+	margin: 0;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
+
+.four-section .box{
+	width: 25%;
+	padding: 0px 25px;
+	margin-top: 60px;
+	color: rgb(107,105,105);
+	float: left;
+	border-right: 1px solid rgb(240, 233, 233);
+}
+
+.four-section .box1{
+	width: 25%;
+	padding: 0px 25px;
+	margin-top: 60px;
+	color: rgb(107,105,105);
+	float: left;
+	border-right: 1px solid rgb(240, 233, 233);
+}
+
+.four-section .fa{
+	color: rgb(104,100,100);
+	font-size: 40px;
+}
+
+.four-section p{
+	font-size: 14px;
+	line-height: 25px;
+	color: rgb(153.150,150);
+	padding-bottom: 30px;
+	font-weight: 100; 
+}
+
+.four-section hr{
+	width: 90%;
+	height: 1px;
+	border: none;
+	background-color: rgb(240,233,233); 
+}
+
+
+/*footer*/
+
+.full-quote{
+	width: 100%;
+	background-color: rgb(39,38,38);
+	padding: 50px;
+	color: gray;
+}
+
+.full-quote .footer{
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.full-quote .footer h1{
+	color: #fff;
+	font-size: 2.7rem;
+	margin: 0;
+}
+
+.full-quote .footer h4{
+	word-spacing: 3px;
+	letter-spacing: 2px;
+	font-weight: 100;
+	margin-top: 0;
+}
+
+.full-quote .footer p{
+	word-spacing: 3px;
+	letter-spacing: 2px;
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.full-quote .footer .f-pic{
+	font-size: 30px;
+	padding: 30px 12px;
+	color: gray;
+}
+
+.full-quote .footer .light{
+	color: rgb(197,194,194);
+}
+
+
+/*media queries*/
+
+@media only screen and (max-width: 950px){
+
+	.navigation ul{
+		padding-left: 14%;
+	}
+}
+
+@media only screen and (max-width: 760px){
+	.navigation ul{
+		display:none;
+		position: absolute;
+		padding-left: 10px;
+		margin-right: 51px;
+	}
+
+	.navigation ul li{
+		float: left;
+		font-size: 13px;
+		padding: 10px 14px;
+	}
+
+	.icon{
+		display: block;
+	}
+
+	.nav-icon{
+		color: #fff;
+		font-size: 40px;
+	}
+
+	a{
+		color: #fff;
+	}
+
+	.navigation .orange{
+		margin: 0;
+	}
+
+	.btn{
+		width: 170px;
+		height: 50px;
+	}
+
+
+}
+
+@media only screen and (max-width: 600px){
+	.four-section .box, .four-section .box1{
+		width: 100%
+		margin-top20px
+	}
+
+	.four-section h4{
+		margin-bottom: 50px;
+	}
+
+	.full-quote{
+		padding: 20px; 
+	}
+
+	.one-section p{
+		padding: 20px 0;
+	}
+
+	.banner h1{
+		font-size: 3.5em;
+	}
+
+	.one-section h1, .four-section h1 .full-quote h1{
+		line-height: 45px;
+		font-size: 2.5em;
+	}
+
+	.one-section h4, .four-section h4 .full-quote h4{
+		margin-top: 20px;
+	}
+}
